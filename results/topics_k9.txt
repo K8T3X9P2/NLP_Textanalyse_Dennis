@@ -1,0 +1,41 @@
+
+ -> Topic 0:
+['size', 'small', 'ordered', 'fit', 'large', 'medium', 'would', 'usually', 'wear', 'tried']
+
+ -> Topic 1:
+['washed', 'dry', 'wash', 'eye', 'back', 'hand', 'washing', 'delicate', 'time', 'first']
+
+ -> Topic 2:
+['top', 'shirt', 'love', 'little', 'back', 'like', 'fabric', 'pretty', 'wear', 'bra']
+
+ -> Topic 3:
+['jeans', 'pants', 'love', 'fit', 'great', 'pair', 'size', 'wear', 'comfortable', 'perfect']
+
+ -> Topic 4:
+['sweater', 'love', 'soft', 'color', 'jacket', 'great', 'like', 'long', 'sleeves', 'looks']
+
+ -> Topic 5:
+['like', 'fabric', 'look', 'would', 'really', 'material', 'waist', 'back', 'fit', 'way']
+
+ -> Topic 6:
+['dress', 'size', 'love', 'fit', 'beautiful', 'length', 'perfect', 'color', 'petite', 'flattering']
+
+ -> Topic 7:
+['great', 'love', 'wear', 'comfortable', 'dress', 'perfect', 'fits', 'compliments', 'flattering', 'well']
+
+ -> Topic 8:
+['one', 'first', 'suit', 'year', 'day', 'retailer', 'last', 'time', 'ever', 'wearing']
+
+### Interpretation der Themen (LDA)
+
+#Auf Basis der Top-Begriffe wurden die Themen semantisch interpretiert:
+
+#1. **Passform & Größenbewertung** – Rückmeldungen zu small/large, bestellten Größen und Sitz.
+#2. **Pflege / Wascherfahrung** – Waschen, Materialverhalten, first wear.
+#3. **Oberteile-Komfort** – Feedback zu Tops und Tragegefühl.
+#4. **Jeans/Hosen Sitz** – Erfahrungen zu Jeans und Passform.
+#5. **Strickmode & Komfort** – Bewertungen zu Sweatern, Jacken und Materialgefühl.
+#6. **Material & Qualität** – Wahrnehmung zu Stoffqualität und Aussehen.
+#7. **Kleider & Schönheit** – Länge, Farbe, flattering fit (besonders Figurthemen).
+#8. **Komfort & Komplimente** – positives Tragegefühl, perfekte Passform.
+#9. **Langzeit-/Nutzungserfahrung** – Wie lange getragen, Haltbarkeit, first use.
