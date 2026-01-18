@@ -7,3 +7,19 @@ Der Datensatz umfasst mehrere tausend Rezensionen zu Damenbekleidung. Für die A
 Zur Modellierung der zugrunde liegenden Themenstruktur wurden Latent Dirichlet Allocation (LDA) sowie Latent Semantic Analysis (LSA) verwendet. Um die Anzahl sinnvoller Themen abzuschätzen, wurden mehrere Modelle trainiert und anhand eines Kohärenzwerts verglichen. Die beste Modellgüte ergab sich bei neun Themen, die u. a. Passform, Komfort, Material, Design, Pflegeaufwand und Nutzungserfahrungen widerspiegeln.
 
 Das Jupyter Notebook dokumentiert die Umsetzung der Analyse, die verwendeten Codebausteine sowie die wichtigsten Ergebnisse.
+
+
+**Ausführung** 
+
+Abhängigkeiten installieren:
+
+pip install -r requirements.txt
+
+
+Notebook öffnen:
+
+Notizbücher/Analyse.ipynb
+
+Die Zellen Schritt für Schritt ausführen (die Daten werden aus dem Ordner Daten/ geladen).
+
+Die Ergebnisse (Topics und Keywords) werden direkt im Notebook ausgegeben. Zur Kontrolle wurde der Ablauf erneut ausgeführt und die Ergebnisse konnten dabei 1:1 reproduziert werden.
